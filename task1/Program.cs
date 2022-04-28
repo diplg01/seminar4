@@ -7,5 +7,14 @@ int sum = 0;
 for(int i = 1; i <= A; i++)
 {
     sum += i;
-    Console.WriteLine(sum);
+    Console.Write(i + " ");
 }
+Console.WriteLine();
+int j = 1;
+while(j <= A)
+{
+    Console.Write(j + " ");
+    j++;
+}
+Console.WriteLine();
+Console.WriteLine(sum);

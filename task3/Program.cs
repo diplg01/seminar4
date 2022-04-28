@@ -11,8 +11,3 @@ while (a > 0)
     count++;
 }
 Console.WriteLine(count);
-
-
-
-
-

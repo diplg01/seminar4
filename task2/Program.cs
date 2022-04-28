@@ -5,7 +5,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 int sum = 1;
 for (int i = 1; i <= N; i++)
 {
-    Console.WriteLine(i);
+    Console.Write(i + " ");
     sum = sum * i;
 
 }
