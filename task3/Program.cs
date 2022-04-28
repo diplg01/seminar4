@@ -1,13 +1,14 @@
 ﻿//количество цифр в числе
 
-//string a = Convert.ToString(199234);
-//Console.WriteLine(a.Length);
+Console.Write("Введите число а: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(a.ToString().Length);
 
-int a = 1234;
-int count = 0;
-while (a > 0)
-{
-    a = a / 10;
-    count++;
-}
-Console.WriteLine(count);
+//int a = 1234;
+//int count = 0;
+//while (a > 0)
+//{
+//    a = a / 10;
+//    count++;
+//}
+//Console.WriteLine(count);
